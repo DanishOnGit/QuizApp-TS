@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function MenuItems() {
   return (
     <>
-      <Flex>
+      <Flex alignItems="center">
         <Link to="/">
           <Text p="0 1rem">Home</Text>
         </Link>
