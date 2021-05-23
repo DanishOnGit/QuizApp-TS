@@ -1,16 +1,12 @@
 import { Box, Heading, Text } from "@chakra-ui/layout";
 import { MdSettings } from "react-icons/md";
 
-import {
-  List,
-  ListItem,
-  ListIcon,
-  UnorderedList,
-  Button,
-} from "@chakra-ui/react";
+import { ListItem, ListIcon, UnorderedList, Button } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { colors } from "../../Database";
-export function Instructions() {
+import { InstructionsProps } from "./InstructionsProps.types";
+
+export function Instructions({ setShowQuiz }: InstructionsProps) {
   return (
     <>
       <Box
@@ -18,6 +14,7 @@ export function Instructions() {
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
+        m="4rem"
       >
         <Heading as="h4">Instructions</Heading>
         <UnorderedList listStyleType="none" textAlign="left">
@@ -39,6 +36,7 @@ export function Instructions() {
           </ListItem>
         </UnorderedList>
         <Button
+          onClick={() => setShowQuiz(true)}
           bgColor={colors.orange[700]}
           color="whiteAlpha.900"
           m="1rem"

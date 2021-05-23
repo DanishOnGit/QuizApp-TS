@@ -1,1 +1,1 @@
-# Badminton Quiz App - Made using *TypeScript*
+# ShuttleArc Quiz App - Made using *TypeScript*

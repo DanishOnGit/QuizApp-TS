@@ -11,13 +11,6 @@ export function HomePage() {
     <div>
      <Header />
      <QuizList/>
-
-
-      {/* <SimpleGrid columns={[1, null, 3]} spacing="2rem">
-        {categories.map((item: Category):JSX.Element => (
-          <CategoryCard item={item} />
-        ))}
-      </SimpleGrid> */}
     </div>
   );
 }

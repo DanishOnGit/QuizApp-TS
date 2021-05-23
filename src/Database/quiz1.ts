@@ -12,41 +12,44 @@ export const quiz1:Quiz={
           {
             _id: "1",
             points: 2,
-            question: "How to play a smash?",
+            negativePoints:1,
+            question: "Which of these is a fault when serving",
             options: [
               {
                 _id: "1",
                 isRight: true,
-                text: "punch down",
+                text: "Hitting feathers of shuttle first",
               },
               {
                 _id: "2",
                 isRight: false,
-                text: "drive long",
+                text: "Hitting the cork of the shuttle first",
               },
             ],
           },
           {
             _id: "2",
             points: 2,
-            question: "How to play a smash?",
+            negativePoints:1,
+            question: "When a birdie is hit back and forth together in badminton, it is called",
             options: [
               {
                 _id: "1",
                 isRight: true,
-                text: "punch down",
+                text: "Rally",
               },
               {
                 _id: "2",
                 isRight: false,
-                text: "drive long",
+                text: "Set",
               },
             ],
           },
           {
             _id: "3",
             points: 2,
-            question: "How to play a smash?",
+            negativePoints:1,
+            question: "How to play a drop shot?",
             options: [
               {
                 _id: "1",
@@ -63,34 +66,36 @@ export const quiz1:Quiz={
           {
             _id: "4",
             points: 2,
-            question: "How to play a smash?",
+            negativePoints:1,
+            question: "Where Racket should point while smashing?",
             options: [
               {
                 _id: "1",
                 isRight: true,
-                text: "punch down",
+                text: "Downward",
               },
               {
                 _id: "2",
                 isRight: false,
-                text: "drive long",
+                text: "Upward",
               },
             ],
           },
           {
             _id: "5",
             points: 2,
-            question: "How to play a smash?",
+            negativePoints:1,
+            question: "How to play a clear shot?",
             options: [
               {
                 _id: "1",
-                isRight: true,
-                text: "punch down",
+                isRight: false,
+                text: "Slice the shuttle",
               },
               {
                 _id: "2",
-                isRight: false,
-                text: "drive long",
+                isRight: true,
+                text: "Drive long",
               },
             ],
           },
