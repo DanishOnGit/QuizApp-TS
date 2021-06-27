@@ -13,6 +13,7 @@ export const fonts = {
   heading: "Poppins",
   body: "Poppins",
 };
+
 export const quizzes: Quiz[] = [
   quiz1,quiz2,quiz3
 ];

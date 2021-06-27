@@ -1,11 +1,12 @@
-import { Box, Text } from "@chakra-ui/layout";
-
+import { Box} from "@chakra-ui/layout";
+import{
+Image
+} from "@chakra-ui/react";
+import logo from "../../images/logo-black.svg"
 export function Logo() {
   return (
     <Box>
-      <Text fontSize="lg" fontWeight="bold" mr="2rem">
-        LOGO.
-      </Text>
+      <Image src={logo} boxSize="60px" alt="logo" />
     </Box>
   );
 }
